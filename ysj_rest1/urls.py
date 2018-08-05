@@ -23,6 +23,7 @@ from service1 import views
 router = routers.DefaultRouter()
 router.register(r'persons',views.PersonViewSet)
 router.register(r'animals',views.AnimalViewset)
+router.register(r'persondetail',views.PersondatailViewSet)
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
